@@ -7,7 +7,6 @@ export default function Home() {
       <h1>
         Hello!
       </h1> 
-      <Link href="/experience">Work Experience</Link>
     </main>
-  ); // use link so it does client side navigation, does not re-fetch everything when page changes
+  ); 
 }
