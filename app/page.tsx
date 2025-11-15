@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <main>
       <h1>
-        hello World
-        <Link href="/users"> Users Page</Link>
+        Hello!
       </h1> 
+      <Link href="/experience">Work Experience</Link>
     </main>
   ); // use link so it does client side navigation, does not re-fetch everything when page changes
 }

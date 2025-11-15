@@ -6,9 +6,12 @@ function WorkExperiencePage() {
     return (
         <div>
             <h1>Work Experience</h1>
-            {work_experience_data.map((exp, i) => (
-                <WorkExperienceBlock key={i} data={exp}/>
-            ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {work_experience_data.map((exp, i) => (
+                    <WorkExperienceBlock key={i} data={exp}/>
+                ))}  
+            </div>
+            
         </div>
     )
 }

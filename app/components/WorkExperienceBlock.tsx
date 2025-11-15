@@ -12,18 +12,27 @@ interface experienceData {
 
 function WorkExperienceBlock({data} : {data:experienceData}) {
   return (
-        <div className={styles.block}>
-            <h2 className={styles.company}>{data.company}</h2>
-            <h3 className={styles.title}>{data.title}</h3>
-            <h4 className={styles.dates}>{data.start_date} - {data.end_date}</h4>
-            <h4 className={styles.location}>{data.location}</h4>
-            <h3 className={styles.description}>{
-                    data.description.map((bullet, i) => (
-                        <li key={i}> {bullet} </li>
-                    ))
-                }
-            </h3>
-        </div>
+        <article className={styles.block}>
+            <div className={styles.headerRow}>
+                <h2 className={styles.company}>{data.company}</h2>
+
+                <span className={styles.dates}>
+                    {data.start_date} - {data.end_date}
+                </span>
+            </div>
+            
+            <div className={styles.titleRow}>
+                <p className={styles.title}>{data.title}</p>
+                <p className={styles.location}>{data.location}</p>
+            </div>
+
+
+            <ul className="list-disc ml-5">
+                {data.description.map((item, i) => (
+                <li key={i}>{item}</li>
+                ))}
+            </ul>
+        </article>
   )
 }
 
