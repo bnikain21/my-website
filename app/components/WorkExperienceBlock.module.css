@@ -1,0 +1,28 @@
+.block {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.company {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.dates {
+  color: #666;
+}
+
+.location {
+  font-style: italic;
+}
+
+.description ul {
+  margin-left: 20px;
+}
