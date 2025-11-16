@@ -7,7 +7,7 @@ function NavBar() {
         <ul className="flex items-center gap-10 text-gray-800 font-medium">
             <Link className="cursor-pointer hover:text-black transition" href="/">Home</Link>
             <Link className="cursor-pointer hover:text-black transition" href="/experience">Experience</Link>
-            <Link className="cursor-pointer hover:text-black transition" href="/experience">Contact</Link>
+            <Link className="cursor-pointer hover:text-black transition" href="/contact">Contact</Link>
         </ul>
     </nav>
   )
