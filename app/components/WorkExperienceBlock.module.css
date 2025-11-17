@@ -2,8 +2,10 @@
     border: 1px solid #ccc;
     padding: 16px;
     margin-bottom: 24px;
-    border-radius: 8px;
-    background: #fafafa;
+    border-radius: 15px;
+    background: #666;
+    color: white;
+
 }
 
 .headerRow {
@@ -15,12 +17,12 @@
 .titleRow {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .company {
     font-size: 1.4rem;
     font-weight: bold;
+    align-items: center;
 }
 
 .title {
@@ -28,7 +30,7 @@
 }
 
 .dates {
-    color: #666;
+    color: white;
 }
 
 .location {
