@@ -9,15 +9,16 @@ export default function Home() {
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
           Bijan Nikain
         </h1>
+        
 
-        <p className="text-lg md:text-2xl text-white mt-2 ">
+        <p className="text-lg text-text-e1s md:text-2xl mt-2 ">
           Georgia Institute of Technology
         </p>
       </div>
       <div className="flex-1 ">
-        <h2 className="text-2xl font-semibold mb-2 text-white">About Me</h2>
+        <h2 className="text-2xl font-semibold mb-2 text-text-e1m">About Me</h2>
 
-        <p className="text-base md:text-lg text-white leading-relaxed">
+        <p className="text-base md:text-lg text-text leading-relaxed text-text-e1s">
           I am a graduate student at the Georgia Institute of Technology studying computer science.
         </p>
       </div>
