@@ -1,4 +1,7 @@
 version: 1
+monorepo:
+  enabled: false
+
 frontend:
   phases:
     preBuild:
