@@ -43,3 +43,4 @@ next-env.d.ts
 # real data
 data/work_experience.json
 data/education.json
+.env.local
