@@ -1,0 +1,105 @@
+[
+    {
+        "company": "Cigna Group",
+        "title": "Machine Learning Engineer Intern",
+        "start_date": "05/2025",
+        "end_date": "08/2025",
+        "location": "Austin, TX",
+        "description": [
+            "Built an AI chatbot to deliver insights on healthcare claims at both client and patient levels", 
+            "Implemented a Retrieval-Augmented Generation (RAG) pipeline with FAISS and Milvus, achieving 100% correctness (LLM-as-Judge) on the internal dataset while reducing token usage by 90%",
+            "Engineered an AI agent to dynamically adjust context size based on each question's complexity, improving retrieval efficiency and response accuracy",
+            "Deployed a Streamlit application on AWS ECS and Databricks for scalable data storage and preprocessing"
+        ],
+        "short_desc": [
+            "Created an AI-powered healthcare claims chatbot", 
+            "RAG pipeline with FAISS and Milvus reduced token usage by 90%",
+            "100% correctness (LLM-as-Judge)",
+            "Optimized Vector Search with AI agent ",
+            "Deployed Streamlit app on AWS ECS using Docker"
+        ],
+        "skills": [
+            "Retrieval Augmented Generation (RAG)", "Docker", "PySpark", "AWS ECS", "Milvus Vector DB"
+        ]
+    },
+    {
+        "company": "AT&T",
+        "title": "Machine Learning Engineer Intern",
+        "start_date": "05/2024",
+        "end_date": "08/2024",
+        "location": "Alpharetta, GA",
+        "description": [
+            "Designed and implemented a LLaVA-based RLHF system to extract key information from software engineering diagrams to be used in AI-driven software development life cycle", 
+            "Implemented a Flask API to interface with a RAG pipeline processing 1K+ page design documents",
+            "Built custom dataset generators using CytoscapeJS and HTML for training and evaluation"
+        ],
+        "short_desc": [
+            "Built a LLaVA-based RLHF system", 
+            "Integrated into RAG pipeline with Flask",
+            "Implemented Custom Dataset Generators with CytoscapeJS"
+        ],
+        "skills": [
+            "LLM Fine-Tuning", "PyTorch", "Flask", "JavaScript", "CytoscapeJS", "Docker"
+        ]
+    },
+    {
+        "company": "UPS",
+        "title": "Software Engineer Intern",
+        "start_date": "06/2023",
+        "end_date": "08/2023",
+        "location": "Alpharetta, GA",
+        "description": [
+            "Developed a full stack asset-tracking web application for hospitals using React.js and Node.js", 
+            "Built a MySQL-backed database integrated through Express.js for efficient data management",
+            "Integrated multiple APIs, such as Google Maps, to enhance user experience and functionality"
+        ],
+        "short_desc": [
+            "Full stack development of Healthcare Asset Tracking App", 
+            "Implemented using React.js, Express.js, & MySql",
+            "Integrated Google Maps API for efficient asset locating"
+        ],
+        "skills": [
+            "React.js", "Express.js", "MySQL"
+        ]
+    },
+    {
+        "company": "College of Computing, Georgia Tech",
+        "title": "Head Teaching Assistant: Computer Systems & Networks",
+        "start_date": "05/2023",
+        "end_date": "08/2023",
+        "location": "Atlanta, GA",
+        "description": [
+            "Led a course on memory management, computer architecture, networking, and multithreading", 
+            "Trained and managed a team of new teaching assistants",
+            "Held office hours (3 hrs.) and led a recitation (50+ students) weekly to reinforce content",
+            "Led project, exam, and homework creation, assigning and reviewing grading tasks for TA team"
+        ],"short_desc": [
+            "Managed & trained new teaching assistants", 
+            "Held OH and taught recitation",
+            "Led exam, homework, project creation/grading"
+        ],
+         "skills": [
+            "C (Programming Language)", "Computer Networks", "Multithreading", "Leadership",
+             "Assembly Language", "Memory Managment", "Computer Architecture"
+        ]
+    },
+    {
+        "company": "College of Computing, Georgia Tech",
+        "title": "Graduate Teaching Assistant: Database Systems",
+        "start_date": "01/2025",
+        "end_date": "Present",
+        "location": "Atlanta, GA",
+        "description": [
+            "Supported students in a course on database design and implementation using MySQL", 
+            "Collaborated with instructors to develop a new course project, including ER diagram, database schema, and stored procedures, later deployed to 500+ students",
+            "Held weekly office hours (3 hrs) to clarify database concepts and assist with course assignments"
+        ], 
+        "short_desc": [
+            "Developed new course project, deployed to 500+ students",
+            "Held office hours weekly"
+        ],
+        "skills": [
+            "MySQL", "Relational Database Design", "MySQL Functions/Procedures"
+        ]
+    }
+]
