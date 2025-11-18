@@ -15,6 +15,9 @@ export default function Home() {
         <p className="text-lg text-text-e1s md:text-2xl mt-2 ">
           Georgia Institute of Technology
         </p>
+        <a href="/resume.pdf" download className="mt-6 inline-block py-4 px-6 text-text-a1m rounded-full bg-a1 hover:bg-b1 transition">
+          Download CV
+        </a>
       </div>
       <div className="flex-1 ">
         <h2 className="text-2xl font-semibold mb-2 text-text-e1m">About Me</h2>
