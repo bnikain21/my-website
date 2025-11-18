@@ -15,9 +15,10 @@ export default function Home() {
       </div>
       
       <div className="flex justify-center">
-        <ContentCard title="Experience" short_desc="What I have done" path="/experience"/>  
-        <ContentCard title="Education" short_desc="Where I learned" path="/education"/>  
-        <ContentCard title="Projects" short_desc="What I am doing" path="/projects"/>  
+        <ContentCard title="About Me" short_desc="Introduction" path="/aboutme"/>
+        <ContentCard title="Experience" short_desc="Industry Roles" path="/experience"/>  
+        <ContentCard title="Education" short_desc="Background" path="/education"/>  
+        <ContentCard title="Projects" short_desc="Technical Work" path="/projects"/>    
       </div>
     </section>
     
