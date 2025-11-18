@@ -18,32 +18,44 @@ export default function WorkExperiencePage() {
             key={i}
             onClick={() => setSelected(i)}
             className={`
-              p-3 rounded-lg cursor-pointer border
+              p-6  cursor-pointer border
               transition
               border-gray-500
+              rounded-full
               ${i === selected ? "bg-a1 text-text-a1m" : "bg-c1 text-text-c1m hover:bg-a1 hover:text-text-a1m"}
             `}
           >
-            <p className={`font-semibold text-sm flex items-center gap-2
+            <p className={`font-bold text-2xl  flex items-center gap-2
             `}>
                 {item.title}
                 {i === selected && <ChevronRight size={16} />}
             </p>
 
-            <p className={`text-sm 
-            `}>{item.company}</p>
+            <p className={`text-xl 
+            `}>{item.company} | {item.start_date} - {item.end_date}</p>
           </li>
         ))}
       </ul>
 
       {/* right side */}
-      <div className="flex-1 border rounded-lg p-6 bg-a1">
-        <h2 className="text-2xl font-bold text-text-a1m">{exp.title} | {exp.company} </h2>
-        <p className="font-medium text-text-a1s">{exp.location} | {exp.start_date} - {exp.end_date} </p>
+      <div className="flex-1 border p-6 bg-a1 rounded-3xl">
+        <h2 className="text-2xl text-center font-bold text-text-a1m">{exp.title} </h2>
+        <h2 className="text-xl text-center font-bold text-text-a1m">{exp.company} </h2>
+        <p className="font-medium text-center text-text-a1s space-y-8">{exp.location} | {exp.start_date} - {exp.end_date} </p>
 
-        <ul className="list-disc ml-5 space-y-1 text-text-a1m">
-          {exp.description.map((d: string, idx: number) => (
-            <li key={idx}>{d}</li>
+        <ul className="list-disc ml-5 space-y-1 text-text-a1m  gap-x-8 ">
+          {exp.short_desc.map((d: string, idx: number) => (
+            <li className="text-2xl" key={idx}>{d}</li>
+          ))}
+        </ul>
+        <ul className="flex flex-wrap gap-3 ml-5 my-4 w-full">
+          {exp.skills.map((s, idx) => (
+            <button
+              key={idx}
+              className="rounded-full px-4 py-2 bg-c1 text-text-c1m text-sm font-medium"
+            >
+              {s}
+            </button>
           ))}
         </ul>
       </div>
