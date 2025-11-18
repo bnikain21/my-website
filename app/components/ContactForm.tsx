@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
-  const [form, setForm] = useState({ name: "", title:"", email: "", message: "" });
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const handleChange = (e: any) =>
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -16,7 +16,7 @@ export default function ContactForm() {
     setLoading(true);
 
     const params = {
-        "title": form.title,
+        "title": `Message Received from ${form.name}`,
         "name": form.name,
         "message": form.message,
         "time": currentTime,
@@ -32,7 +32,7 @@ export default function ContactForm() {
       )
       .then(() => {
         alert("Message sent!");
-        setForm({ name: "", title:"", email: "", message: "" });
+        setForm({ name: "", email: "", message: "" });
       })
       .catch(() => alert("Failed to send. Try again later."))
       .finally(() => setLoading(false));
@@ -68,15 +68,6 @@ export default function ContactForm() {
           required
         />
 
-        <input
-          type="text"
-          name="title"
-          placeholder="Title"
-          onChange={handleChange}
-          value={form.title}
-          className="w-full border rounded-lg p-3 text-lg"
-          required
-        />
 
         <textarea
           name="message"
