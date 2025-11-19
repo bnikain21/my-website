@@ -14,7 +14,7 @@ export default function Home() {
         </a>
       </div>
       
-      <div className="flex justify-center">
+      <div className="flex justify-center flex-wrap">
         <ContentCard title="About Me" short_desc="Introduction" path="/aboutme"/>
         <ContentCard title="Experience" short_desc="Industry Roles" path="/experience"/>  
         <ContentCard title="Education" short_desc="Background" path="/education"/>  
