@@ -14,11 +14,18 @@ export default function Home() {
         </a>
       </div>
       
-      <div className="flex justify-center">
+      <div className="flex justify-center flex-wrap">
         <ContentCard title="About Me" short_desc="Introduction" path="/aboutme"/>
         <ContentCard title="Experience" short_desc="Industry Roles" path="/experience"/>  
-        <ContentCard title="Education" short_desc="Background" path="/education"/>  
         <ContentCard title="Projects" short_desc="Technical Work" path="/projects"/>    
+      </div>
+      <div className="flex justify-center items-center h-20 mt-12">
+        <p className="text-center text-text-e1m text-sm">
+          Designed by me. 
+          Built using <a className="font-bold" href="https://nextjs.org/"> Next.js </a> and 
+          <a className="font-bold" href="https://tailwindcss.com/"> TailwindCSS</a>. Deployed using  
+           <a className="font-bold" href="https://aws.amazon.com/amplify/"> AWS Amplify. </a>
+        </p>
       </div>
     </section>
     

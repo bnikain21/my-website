@@ -1,0 +1,27 @@
+[
+    {
+        "school": "Georgia Institute of Technology",
+        "degree": "Master of Science", 
+        "major": "Computer Science",
+        "degree_abr": "M.S.",
+        "start_date": "01/2025",
+        "end_date": "12/2025",
+        "coursework": [
+            "Deep Learning", "Computer Vision", "Data Visualization & Analytics", "Network Security",
+            "Computer Graphics in AI"
+        ]
+    },
+    {
+        "school": "Georgia Institute of Technology",
+        "degree": "Bachelor of Science", 
+        "degree_abr": "B.S.",
+        "major": "Computer Science",
+        "start_date": "08/2020",
+        "end_date": "12/2024",
+        "coursework": [
+            "Artifical Intelligence", "Machine Learning", 
+            "Computer Networks", "Database Systems", 
+            "Data Structures & Algorithms"
+        ]
+    }
+]
