@@ -9,9 +9,9 @@ function AboutMePage() {
         <Image src='/headshot.png' alt='headshot' width={300} height={700} />
         
         <p className="text-xl text-text-e1m pt-3 max-w-lg self-center">
-            I am a computer science graduate student at the Georgia Institute of Technology specializing 
-            in machine learning, with experience in software engineering, building AI-driven applications,
-            and working with computer networks.
+            I am a graduate of the Georgia Institute of Technology with experience in AI and software engineering. 
+            Throughout my academic and professional career, I have focused on applying AI-powered solutions to
+            business problems. 
         </p>
       </div>
       <div className='flex flex-col md:w-1/2 pl-6'>
