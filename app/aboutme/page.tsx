@@ -6,7 +6,7 @@ function AboutMePage() {
   return (
     <section className='flex flex-col md:flex-row gap-10'>
       <div className="flex flex-col items-center text-center md:w-1/2">
-        <Image src='/headshot.png' alt='headshot' width={300} height={700} />
+        {/* <Image src='/headshot.png' alt='headshot' width={300} height={700} /> */}
         
         <p className="text-xl text-text-e1m pt-3 max-w-lg self-center">
             I am a graduate of the Georgia Institute of Technology with experience in AI and software engineering. 

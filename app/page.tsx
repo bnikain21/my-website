@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section className="px-6 md:px-12 lg:px-24 gap-10">
       <h1 className="text-center text-6xl text-text-e1m  font-bold"><TypingAnimation text={["Bijan", " ", "Nikain"]}/></h1>
-      <h2 className="text-center text-3xl text-text-e1m pt-3">Graduate Student @ Georgia Instiute of Technology</h2>
+      <h2 className="text-center text-3xl text-text-e1m pt-3"><TypingAnimation text={["AI", " ","Engineer", " ", "@", " ", "Fisher", " ", "&", " ", "Phillips", " ", "LLP"]}/></h2>
         <div className="flex justify-center">
         <a href="/resume.pdf" download className=" mt-6 py-4 px-6 text-text-a1m rounded-full bg-a1 hover:bg-b1 transition">
           Download CV
